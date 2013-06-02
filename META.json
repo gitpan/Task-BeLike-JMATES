@@ -1,0 +1,59 @@
+{
+   "abstract" : "modules used by JMATES (testing needs)",
+   "author" : [
+      "Jeremy Mates <jmates@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Task-BeLike-JMATES",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "App::MusicTools" : "0",
+            "Config::OpenSSH::Authkey" : "0",
+            "File::AtomicWrite" : "0",
+            "File::Cmp" : "0",
+            "LWP::UserAgent" : "0",
+            "Music::NeoRiemannianTonnetz" : "0",
+            "Term::CallEditor" : "0",
+            "Term::ReadLine::Gnu" : "0",
+            "Test::Pod" : "0",
+            "Unix::Sysexits" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://github.com/thrig/Task-BeLike-JMATES",
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "http://github.com/thrig/Task-BeLike-JMATES"
+      }
+   },
+   "version" : "0.01"
+}

@@ -1,0 +1,27 @@
+A distribution to install modules that I need to test; see Makefile.PL
+for the list of these modules.
+
+Install from CPAN:
+
+  cpan Task::BeLike::JMATES
+
+Or the latest version:
+
+  git clone http://github.com/thrig/Task-BeLike-JMATES
+  cd Task-BeLike-JMATES
+  cpanm .
+
+Or the old fashioned way:
+
+  perl Makefile.PL
+  make
+  make test
+  make install
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2013 Jeremy Mates
+
+This library is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself, either Perl version 5.16 or, at
+your option, any later version of Perl 5 you may have available.

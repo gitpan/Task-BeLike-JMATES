@@ -1,0 +1,35 @@
+---
+abstract: 'modules used by JMATES (testing needs)'
+author:
+  - 'Jeremy Mates <jmates@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-BeLike-JMATES
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  App::MusicTools: 0
+  Config::OpenSSH::Authkey: 0
+  File::AtomicWrite: 0
+  File::Cmp: 0
+  LWP::UserAgent: 0
+  Music::NeoRiemannianTonnetz: 0
+  Term::CallEditor: 0
+  Term::ReadLine::Gnu: 0
+  Test::Pod: 0
+  Unix::Sysexits: 0
+resources:
+  homepage: http://github.com/thrig/Task-BeLike-JMATES
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/thrig/Task-BeLike-JMATES
+version: 0.01
