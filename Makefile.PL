@@ -17,6 +17,7 @@ my %params = (
     'File::AtomicWrite'           => 0,
     'File::Cmp'                   => 0,
     'LWP::UserAgent'              => 0,
+    'Math::SlideRule'             => 0,
     'Music::NeoRiemannianTonnetz' => 0,    # *except when it doesn't
     'Term::CallEditor'            => 0,
     'Term::ReadLine::Gnu'         => 0,    # history in cpan \o/
