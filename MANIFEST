@@ -2,6 +2,7 @@ Changes
 MANIFEST
 Makefile.PL
 README
+SIGNATURE
 lib/Task/BeLike/JMATES.pm
 t/Task-BeLike-JMATES.t
 t/pod.t

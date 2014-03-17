@@ -38,6 +38,7 @@
             "File::Cmp" : "0",
             "LWP::UserAgent" : "0",
             "Math::SlideRule" : "0",
+            "Module::Signature" : "0",
             "Music::NeoRiemannianTonnetz" : "0",
             "Term::CallEditor" : "0",
             "Term::ReadLine::Gnu" : "0",
@@ -57,5 +58,5 @@
          "url" : "http://github.com/thrig/Task-BeLike-JMATES"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
