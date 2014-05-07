@@ -19,6 +19,7 @@ no_index:
     - inc
 requires:
   App::MusicTools: 0
+  CPAN::Uploader: 0
   Config::OpenSSH::Authkey: 0
   File::AtomicWrite: 0
   File::Cmp: 0
@@ -35,4 +36,4 @@ resources:
   homepage: http://github.com/thrig/Task-BeLike-JMATES
   license: http://dev.perl.org/licenses/
   repository: http://github.com/thrig/Task-BeLike-JMATES
-version: 0.05
+version: 0.06

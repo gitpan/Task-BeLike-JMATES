@@ -13,6 +13,7 @@ my %params = (
   VERSION_FROM => 'lib/Task/BeLike/JMATES.pm',
   PREREQ_PM    => {
     'App::MusicTools'             => 0,    # pulls in my other music mods*
+    'CPAN::Uploader'              => 0,
     'Config::OpenSSH::Authkey'    => 0,
     'File::AtomicWrite'           => 0,
     'File::Cmp'                   => 0,
@@ -54,4 +55,4 @@ if ( $ExtUtils::MakeMaker::VERSION ge '6.48' ) {
   $params{MIN_PERL_VERSION} = 5.010000;
 }
 
-WriteMakefile((MM->can('signature_target') ? (SIGN => 1) : ()), %params);
+WriteMakefile( ( MM->can('signature_target') ? ( SIGN => 1 ) : () ), %params );
