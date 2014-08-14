@@ -43,7 +43,9 @@
             "Music::NeoRiemannianTonnetz" : "0",
             "Term::CallEditor" : "0",
             "Term::ReadLine::Gnu" : "0",
+            "Test::CheckManifest" : "0",
             "Test::Pod" : "0",
+            "Test::Pod::Coverage" : "0",
             "Unix::Sysexits" : "0",
             "perl" : "5.01"
          }
@@ -59,5 +61,5 @@
          "url" : "http://github.com/thrig/Task-BeLike-JMATES"
       }
    },
-   "version" : "0.06"
+   "version" : "0.08"
 }

@@ -23,7 +23,9 @@ my %params = (
     'Music::NeoRiemannianTonnetz' => 0,    # *except when it doesn't
     'Term::CallEditor'            => 0,
     'Term::ReadLine::Gnu'         => 0,    # history in cpan \o/
-    'Test::Pod'                   => 0,    # for the pod.t tests
+    'Test::CheckManifest'         => 0,    # testing needs
+    'Test::Pod'                   => 0,    # testing needs
+    'Test::Pod::Coverage'         => 0,    # testing needs
   },
   ( $] >= 5.005
     ? ( AUTHOR => 'Jeremy Mates <jmates@cpan.org>' )

@@ -3,7 +3,7 @@ package Task::BeLike::JMATES;
 use 5.010000;
 use strict;
 use warnings;
-our $VERSION = '0.06';
+our $VERSION = '0.08';
 
 1;
 __END__
@@ -64,6 +64,8 @@ For more information, consult the excellent "Pro Git" book, as well as
 the various L<git(1)> manual pages, as these methods may not suit
 your needs.
 
+In over your head with git? L<http://justinhileman.info/article/git-pretty/full/>
+
 =head1 SEE ALSO
 
 L<http://github.com/thrig/Task-BeLike-JMATES>,
@@ -71,7 +73,7 @@ L<Task::BeLike::JMATES::Play>, L<Task::BeLike::JMATES::WorkWorkWork>
 
 =head1 AUTHOR
 
-Jeremy Mates, E<lt>jmates@cpan.orgE<gt>
+thrig - Jeremy Mates (cpan:JMATES) C<< <jmates at cpan.org> >>
 
 =head1 COPYRIGHT AND LICENSE
 
