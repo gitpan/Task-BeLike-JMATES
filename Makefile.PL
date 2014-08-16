@@ -21,6 +21,7 @@ my %params = (
     'Math::SlideRule'             => 0,
     'Module::Signature'           => 0,    # signage
     'Music::NeoRiemannianTonnetz' => 0,    # *except when it doesn't
+    'Music::PitchNum'             => 0,    #    "     "   "    "
     'Term::CallEditor'            => 0,
     'Term::ReadLine::Gnu'         => 0,    # history in cpan \o/
     'Test::CheckManifest'         => 0,    # testing needs

@@ -41,6 +41,7 @@
             "Math::SlideRule" : "0",
             "Module::Signature" : "0",
             "Music::NeoRiemannianTonnetz" : "0",
+            "Music::PitchNum" : "0",
             "Term::CallEditor" : "0",
             "Term::ReadLine::Gnu" : "0",
             "Test::CheckManifest" : "0",
@@ -61,5 +62,5 @@
          "url" : "http://github.com/thrig/Task-BeLike-JMATES"
       }
    },
-   "version" : "0.08"
+   "version" : "0.09"
 }
