@@ -24,9 +24,10 @@ my %params = (
     'Music::PitchNum'             => 0,    #    "     "   "    "
     'Term::CallEditor'            => 0,
     'Term::ReadLine::Gnu'         => 0,    # history in cpan \o/
-    'Test::CheckManifest'         => 0,    # testing needs
-    'Test::Pod'                   => 0,    # testing needs
-    'Test::Pod::Coverage'         => 0,    # testing needs
+    'Test::CheckManifest'         => 0,    # testing needs ...
+    'Test::Differences'           => 0,
+    'Test::Pod'                   => 0,
+    'Test::Pod::Coverage'         => 0,
   },
   ( $] >= 5.005
     ? ( AUTHOR => 'Jeremy Mates <jmates@cpan.org>' )
