@@ -40,6 +40,8 @@
             "LWP::UserAgent" : "0",
             "Math::SlideRule" : "0",
             "Module::Signature" : "0",
+            "Module::Starter" : "0",
+            "Module::Starter::XSimple" : "0",
             "Music::NeoRiemannianTonnetz" : "0",
             "Music::PitchNum" : "0",
             "Term::CallEditor" : "0",
@@ -63,5 +65,5 @@
          "url" : "http://github.com/thrig/Task-BeLike-JMATES"
       }
    },
-   "version" : "0.10"
+   "version" : "0.11"
 }

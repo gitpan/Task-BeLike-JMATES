@@ -3,7 +3,7 @@ package Task::BeLike::JMATES;
 use 5.010000;
 use strict;
 use warnings;
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 1;
 __END__
